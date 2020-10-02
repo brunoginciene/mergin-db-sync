@@ -1,5 +1,5 @@
 FROM ubuntu:20.04
-MAINTAINER Martin Dobias "martin.dobias@lutraconsulting.co.uk"
+LABEL maintainer="martin.dobias@lutraconsulting.co.uk"
 
 # this is to do choice of timezone upfront, because when "tzdata" package gets installed,
 # it comes up with interactive command line prompt when package is being set up
